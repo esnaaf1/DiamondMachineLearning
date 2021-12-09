@@ -18,7 +18,7 @@ loaded_classifier = load(open('classifier.pkl', 'rb'))
 # Define the index route
 @app.route('/')
 def home():
-	return render_template('Diamonds.html')
+	return render_template('diamonds.html')
 
 # Define a route that runs when the user clicks the Predict button in the web-app
 
